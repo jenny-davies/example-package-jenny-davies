@@ -4,10 +4,25 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example-package-jenny-davies"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
     "numpy"
+]
+authors = [
+    { name="Jenny Davies"}
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Private :: Do Not Upload",
 ]
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[project.urls]
+"Source Code" = https://github.com/jenny-davies/example-package-jenny-davies"
