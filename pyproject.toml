@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example-package-jenny-davies"
+version = "0.1.0"
+dependencies = [
+    "numpy"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
