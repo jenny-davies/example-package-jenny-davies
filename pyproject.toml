@@ -24,5 +24,3 @@ classifiers = [
 [project.optional-dependencies]
 test = ["pytest"]
 
-[project.urls]
-"Source Code" = https://github.com/jenny-davies/example-package-jenny-davies"
