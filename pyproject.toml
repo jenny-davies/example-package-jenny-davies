@@ -23,6 +23,10 @@ classifiers = [
 
 [project.optional-dependencies]
 test = ["pytest"]
+docs = [
+    "myst_parser >=0.13",
+    "sphinx >=4.0",
+]
 
 [project.urls]
 "Source Code" = "https://github.com/jenny-davies/example-package-jenny-davies"

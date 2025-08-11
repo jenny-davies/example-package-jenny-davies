@@ -3,6 +3,8 @@ Example package from packaging course
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<!-- SPHINX-START -->
+
 `example-package-jenny-davies` is a simply Python library that contains a single function for rescaling arrays.
 
 ## Installation
